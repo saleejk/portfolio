@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="IMG_5273.PNG">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("sMQDMIDUSNQHKNVx8");
+})();
+</script>
+
+      
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">saleejn.</a>
+        <div class="bx bx-menu" id="menu-icon">
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skil">Skill</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Main part -->
+
+    <section class="home" id="home">
+        <div class="home-con">
+            <h1>Hi, I'm  Saleej </h1>
+            <div class="text-animate">
+            <h3>Creative Web Developer</h3></div>
+            <p>Welcome to my web developer protfoliol! I'm Saleej ,<br> a skilled and Creative Flutter developer with a passion for creating beautiful,<br> responsive and user friendly Application. I've workied on a variety of projects.</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Hire Me </a><a href="#contact" class="btn1">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://instagram.com/saleejn?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.linkedin.com/in/saleej-ckd-b08a76284" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="home-imghover">
+            <img src="IMG_3560.jpg" alt="">
+        </div>
+    </section>
+
+       <!-- ABOUT -->
+       <section class="about" id="about">
+        <h2 class="heading">About <span>Me </span></h2>
+        <div class="about-img">
+            <img src="SR_00972.JPG" alt="">
+            <span class="circle-sp"></span>
+        </div>
+        <div class="about-con">
+            <h3>Creative Web Developer</h3>
+            <p>I'm frontend Developer.I love studying new technologies.Always give my extra efforts on work</p>
+            <div class="btn-boxAb">
+                <a href="/portfolio/education.html" target="_blank">
+                <div class="btnAb">Read More</div>
+            </a>
+            </div>
+        </div>
+       </section>
+        
+             <!-- Skil -->
+              <h1 class="skilsh1">S<span>k</span>ills</h1>
+            <section class="skil" id="skil">
+                <div class="skils">
+                   
+                 <div class="skil-ph">
+                    <img src="https://mishpacha.com/wp-content/uploads/2022/07/So-You-Want-to-Be-a%E2%80%A6-Web-Developer-R.jpg" alt="">
+                 </div>
+                 <h2 class="skil-co">Developer</h2>
+                </div>
+                <div class="skils">
+                 
+                    <div class="skil-ph">
+                       <img src="https://images.unsplash.com/photo-1581591546314-528384aab67c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c29ueSUyMGNhbWVyYXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                    </div>
+                    <h2 class="skil-co">Photographer</h2>
+                </div>
+            </a>
+                <div class="skills">
+                   
+                    <div class="skil-ph">
+                        <img src="https://i.ytimg.com/vi/J-i5gsu8_JA/maxresdefault.jpg" alt="">
+                    </div>
+                    <h2 class="skil-co">Video Editor</h2>
+                </div>
+            </a>
+        
+            </section>
+
+
+            <!-- PROJECT  -->
+            <section class="project" id="project">
+                <h1 class="projecttitle">My <span>Project</span></h1>
+                <div class="project-con">
+                   
+                    <div class="box-ProjectCo">
+                       <img src="Screenshot 2023-10-18 130809.png" alt="">
+                       <h2>Portfolio</h2>
+                    </div>
+               
+                   
+                    <div class="box-ProjectCo">
+                      <img src="Screenshot 2023-10-18 163515.png" alt="">
+                      <h2>W3 School</h2>
+                    </div>
+               
+             
+                    <div class="box-ProjectCo">
+                        <img src="Screenshot 2023-10-18 130521.png" alt="">
+                        <h2>LinkedIn</h2>
+                    </div>
+                
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section class="contact" id="contact">
+                <h2 class="heading">Contact <span>Me!</span></h2>
+                <form action="#" onsubmit="sendMail(); reset(); return false;">
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input id="fullname" type="text" placeholder="Full Name" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input id="email" type="email" placeholder="Email " required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="textarea-field">
+                            <textarea id="msg" name=""  cols="30" rows="10" placeholder="Yor Message"required></textarea>
+                            <span class="focus"></span>
+                        </div>
+                         
+                    </div>
+                    <div class="btn-box">
+                        <button class="btn3" onclick="sendMail()" >submit</button>
+                    </div>
+                </form>
+            </section>
+ 
+ 
+            <!-- footer -->
+
+            <footer class="footer">
+                <p>Copy &copy; Right</p>
+            </footer>
+    <script src="index.js" ></script>
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
